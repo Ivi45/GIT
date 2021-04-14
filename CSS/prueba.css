@@ -2057,8 +2057,8 @@ header {
   background-color: #F25477 !important; }
 
 .contenedor .formulario .formulario__contenedor .formulario__preguntas .formulario__preguntas__contenedor .btn-lg{
-    background-color: $c-rosadoOscuro;
-    border-color: $c-rosadoOscuro;
+    background-color: #F25477;
+    border-color: #F25477;
 }
 
 .contenedor .formulario .formulario__contenedor .formulario__preguntas .formulario__preguntas__contenedor .btn-lg:hover{
@@ -2066,14 +2066,14 @@ header {
 }
 
 .contenedor .formulario .formulario__contenedor .formulario__preguntas .formulario__preguntas__contenedor .btn.btn-outline-primary.btn-lg{
-    background-color: $c-blanco;
-    border-color: $c-rosadoOscuro;
-    color: $c-rosadoOscuro;
+    background-color: #ffffff;
+    border-color: #F25477;
+    color: #F25477;
 }
 
 .contenedor .formulario .formulario__contenedor .formulario__preguntas .formulario__preguntas__contenedor .btn.btn-outline-primary.btn-lg:hover{
-    background-color: $c-rosadoOscuro;
-    color: $c-blanco;
+    background-color: #F25477;
+    color: #ffffff;
 }
 
 .contenedor .footer__dos {
