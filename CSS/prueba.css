@@ -61,6 +61,14 @@ header {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; }
 
+.contenedor .seccionUno .parrUno span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #7C9FA5; 
+}
+
 .contenedor .seccionUno .imaUno {
   align-items: center;
   margin: 25px 60px 0 0;
@@ -512,6 +520,13 @@ header {
     padding: 0px 30px 0px 45px;
     line-height: 36px;
     margin-top: 30px; }
+  .contenedor .seccionUno .parrUno span{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #7C9FA5;
+    }
   .contenedor .seccionUno .articuloUno .boton {
     display: flex;
     flex-direction: column;
