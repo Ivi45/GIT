@@ -485,7 +485,9 @@ header {
   color: #393A3E;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600; }
+  font-weight: 600;
+  margin-bottom: 0px;
+}
 
 .contenedor .footerHome .imagen {
   height: 18px;
@@ -2113,7 +2115,9 @@ header {
   color: #393A3E;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600; }
+  font-weight: 600;
+  margin-bottom: 0px;
+}
 
 .contenedor .footer__dos .imagen {
   height: 18px;
