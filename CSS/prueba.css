@@ -1083,6 +1083,16 @@ header {
   color: #C7DBDA;
   font-weight: bold; }
 
+.contenedor  .sectionA .col-6 .accordion-button:not(.collapsed){
+    color: #ffffff;
+    background-color: #7C9FA5;
+}
+
+.contenedor  .sectionA .col-6 .accordion-button:focus{
+    border-color: #4D7775;
+    filter: drop-shadow(0px 0px 6px rgba(77, 119, 117, 0.6));
+}
+
 /* SECCIÓN FOOTER */
 .contenedor .footer {
   height: 80px;
