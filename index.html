@@ -9,6 +9,7 @@
     <!-- Link Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/prueba.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 
@@ -81,27 +82,43 @@
                     </div>
                 
                     <div class="contUno">
-                        <article class="articuloDos">
+                        <article 
+                            data-aos="zoom-in-up" 
+                            data-aos-duration="300"
+                            data-aos-delay="10"     
+                            class="articuloDos">
                             <h3 class="tituloTres">Branding</h3>
                             <img class="imgCard" src="svg/bran.svg">
                             <a class="botonTres" href="#">Conoce más</a>
                         </article>
 
-                        <article class="articuloDos">
+                        <article 
+                            data-aos="zoom-in-up" 
+                            data-aos-duration="500"
+                            data-aos-delay="80"     
+                            class="articuloDos">
                             <h3 class="tituloTres">Diseño UX/UI</h3>
                             <img class="imgCard" src="svg/ux.svg">
                             <a class="botonTres" href="#">Conoce más</a>
                             
                         </article>
                 
-                        <article class="articuloDos">
+                        <article 
+                            data-aos="zoom-in-up" 
+                            data-aos-duration="400"
+                            data-aos-delay="50"       
+                            class="articuloDos">
                             <h3 class="tituloTres">Desarrollo web</h3>
                             <img class="imgCardDos" src="svg/dw2.svg">
                             <a class="botonTres" href="#">Conoce más</a>
                             
                         </article>
 
-                        <article class="articuloDos">
+                        <article 
+                            data-aos="zoom-in-up" 
+                            data-aos-duration="600"
+                            data-aos-delay="130"
+                            class="articuloDos">
                             <h3 class="tituloTres">Ilustraciones</h3>
                             <img class="imgCardDosIl" src="svg/ilu.svg">
                             <a class="botonTres" href="#">Conoce más</a>
@@ -225,5 +242,10 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+    
 </body>
 </html>
